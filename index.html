@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</title>
+    <link rel="stylesheet" type="text/css" href="./styles/mystyle.css">
+    <link rel="stylesheet" href="./styles/dark.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+</head>
+<body id="body" class="body">
+    <header>
+        <h1 class="title">¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</h1>  
+    </header>
+    <nav id="navbar">
+        <img id="logo" src="./assets/gifOF_logo.png" class="logo" alt="logo">
+        <ul>
+            <li><a href="creategifos.html"><button class="button header" id="create">Crear Guifos</button></a></li>
+            <li><button class="button header" id="theme-button">Elegir Tema <img id="drop" src="./assets/dropdown.svg" alt="Drop">
+                <ul id="themes" class="themes" > 
+                    <li><div class="sailor" id="btn-day">Sailor Day</div></li>
+                    <li><div class="sailor" id= "btn-night">Sailor Night</div></li>
+                </ul>
+            </button></li>             
+            <li><a id="misGifos" class="header misgifos">Mis Gifos</a></li>
+        </ul> 
+    </nav>
+    <div class="search">
+        <div class="search-text">
+            <p class="search-name">Buscar</p>
+            <form class="search-Bar">
+                <label for="searchBar"></label>
+                <input id="searchBar" class="search-bar" type="text" placeholder="Buscar gifs, hashtags, temas, busca lo que quieras..." width="1057px" height="48px" pattern=".*\S+.*">
+                <button id="buscar-btn" type="submit" class="search-button"><img id="glass" src="./assets/lupa_inactive.svg" alt="Lupa"> Buscar</button>
+                <div id="suggestions-search" class="hidden">
+                    <div id="funny"></div>
+                    <div id="sad"></div>
+                    <div id="happy"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="section-results">
+        <div id="output" class="output"></div>
+    </div>
+    <div class="reccommended">
+        <div id="sugerencias">Hoy te sugerimos:</div>
+        <div id="space_suggestions" class="space_result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
