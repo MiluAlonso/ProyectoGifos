@@ -1,0 +1,185 @@
+* {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+  } 
+
+.body{
+    background-color: #fff4fd; 
+}
+.title {
+    border-width: 2px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    box-shadow: 0 1px 0 0 #110038;
+    font-family: ChakraPetch-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    width: 100%;
+}
+#navbar{
+    width: 83%;
+    margin: 3%;
+    padding-left: 6%;
+    padding-right: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#navbar > ul > li{
+    display: inline-block;
+}
+.misgifos:hover{
+    outline: 1px dotted #110038;
+    outline-offset: 2px;
+    cursor: pointer;
+ }
+ .button{
+     width: 170px;
+     height: 36px;
+     background: #F7C9F3;
+     border: 1px solid #110038;
+     box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+     font-size: 16px;
+     color: #110038;
+     letter-spacing: 0;
+     text-align: center;
+     line-height: 18px;
+     cursor: pointer;
+ }
+ .button:hover{
+    outline: 1px dotted #110038;
+    outline-offset: -6px;
+ }
+ .button:active{
+     border: 1px solid #110038;
+ }
+ #drop{
+     margin-left: 13px;    
+ }
+ #themes{
+    position: absolute;    
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 170px;
+    height: 102px;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    margin-top: 10px;
+    padding: 0;
+}
+#theme-button:hover #themes{
+    display: flex;
+}
+.themes{
+    background: #E6E6E6;
+}
+#themes > li{
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    width: 145px;
+    height: 36px;
+    margin-top: 10px;
+    line-height: 36px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #110038;
+}
+.sailor{
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+.sailor:hover{
+background: #FFF4FD;
+border: 1px solid #CCA6C9;
+box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+.search {
+    display: flex;
+    justify-content: center;   
+}
+.search-name {
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    width: 1200px;
+    height: 24px;
+    color: white;
+}
+.search-Bar {
+    padding: 10px;
+    background-color: #E6E6E6;
+}
+#searchBar {
+    width: 1057px;
+    height: 48px;
+    background-color: rgb(247, 247, 247);
+}
+.search-button {
+    border: 1px solid #808080;
+    cursor: pointer;
+    font-size: 20px;
+    color: #808080;
+}
+.suggestSearch{
+    width: 100%;
+    height: 160px;
+    position: relative;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Chakra Petch', sans-serif;
+    z-index: 100;
+}
+#section-results {
+    width: 1200px;
+    margin-top: 3%;
+    margin-left: 16%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#output {
+    display: flex;
+    justify-content: center; 
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;     
+}  
+
+#suggestions-search > div {
+    padding: 15px;
+    width: 1057px;
+    height: 48px;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+.reccommended {
+      display: flex;
+      justify-content: center;
+      margin-top: 64px;
+  }
+  #sugerencias {
+    background: #FFFAFE;;
+    color: #110038;
+    font-size: 14px;
+    width: 1200px;
+    height: 32px;
+    padding: 5px;
+    text-indent: 15px;
+    font-weight: 400;
+    margin-bottom: 3%;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  }
+  .space_result{
+    display: flex;
+    flex-direction: row;
+}
+ 
